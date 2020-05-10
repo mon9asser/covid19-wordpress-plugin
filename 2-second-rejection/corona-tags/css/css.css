@@ -1,0 +1,134 @@
+
+
+*, *::after, *::before {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+html, body {
+  display: block;
+  margin: 0px !important;
+  margin-top: 0px !important;
+  padding: 0px;
+  outline: none;
+  background: #f8f8fa;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.tags-banner {
+  display: block;
+  position: relative;
+  height: auto;
+  overflow: hidden;
+  padding-bottom: 55px;
+}
+
+.tags-banner::before {
+    content: "";
+    background: url(../img/hero.svg);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-size: cover;
+    z-index: 1;
+}
+.tags-banner > * {
+  position: relative;
+  z-index: 10;
+}
+.tags-dark {
+    background: #091b1d !important;
+}
+.tags-title h1 {
+  color: #fff;
+  font-family: 'Comfortaa', sans-serif;
+  display: inline-block;
+  position: relative;
+}
+.colored-item {
+  color: #ED4C67;
+}
+.tags-title p {
+  color: #fff;
+}
+.tags-title .wp-title {
+  font-size: 12px;
+}
+.tags-white-mode {
+  display: block;
+  position: relative;
+  padding: 20px 0px;
+}
+
+.tags-white-mode h5 {
+  display: block;
+  position: relative;
+  color: #091b1d;
+  font-weight: bold;
+  font-family: 'Comfortaa', sans-serif;
+}
+.covid-title span::before {
+  content: 'Wordpress Plugin';
+  position: absolute;
+  left: 30px;
+  top: -8px;
+  background: #ED4C67;
+  font-size: 8px;
+  padding: 3px 5px;
+  display: block;
+  border-radius: 4px;
+  color: #fff;
+}
+.pluginwp {
+  width: 100%;
+  background: red;
+  position: absolute;
+}
+.widget-title {
+  display: block;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.widget-title h4 {
+  font-size: 18px;
+  padding: 0px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+  color: #0f182e;
+}
+.widget-title p.descr {
+    font-size: 12px;
+    margin-bottom: 15px;
+    color: #999;
+    width: 60%;
+    margin: 0px auto 21px auto;
+}
+.full-wide {
+  width: 100% !important;
+  display: block;
+}
+.title-container-d {
+  padding-top: 50px;
+}
+.tags-card-elements {
+  padding-bottom: 15px;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+.footer-data {
+  background: #081c1e;
+  font-size: 12px;
+    color: #999;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+@media only screen and ( max-width:650px){
+  .widget-title p.descr {
+    width: 90%;
+  }
+}

@@ -1,0 +1,1509 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-04-23 18:16+0200\n"
+"PO-Revision-Date: 2020-04-23 18:16+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class.administration.php:41
+msgid "Saving ..."
+msgstr ""
+
+#: admin/class.administration.php:42 admin/class.administration.php:153
+msgid "Save Changes"
+msgstr ""
+
+#: admin/class.administration.php:96
+msgid "Basic Settings"
+msgstr ""
+
+#: admin/class.administration.php:104 admin/class.administration.php:159
+msgid "Shortcode Builder"
+msgstr ""
+
+#: admin/class.administration.php:121
+msgid "Settings"
+msgstr ""
+
+#: admin/class.administration.php:125
+msgid "Corona Virus Title"
+msgstr ""
+
+#: admin/class.administration.php:130
+msgid "Corona Virus Description"
+msgstr ""
+
+#: admin/class.administration.php:135
+msgid "Cache Period"
+msgstr ""
+
+#: admin/class.administration.php:137 admin/class.administration.php:138
+#: admin/class.administration.php:139 admin/class.administration.php:140
+#: admin/class.administration.php:141 admin/class.administration.php:142
+#, php-format
+msgid "%1$s Mins"
+msgstr ""
+
+#: admin/class.administration.php:143 admin/class.administration.php:144
+#, php-format
+msgid "%1$s Hours"
+msgstr ""
+
+#: admin/class.administration.php:164
+msgid "Data Provider and Fields"
+msgstr ""
+
+#: admin/class.administration.php:171
+msgid "Shortcode Data Provider"
+msgstr ""
+
+#: admin/class.administration.php:175
+msgid "Countries Datatable"
+msgstr ""
+
+#: admin/class.administration.php:176
+msgid "World Wide Statistics"
+msgstr ""
+
+#: admin/class.administration.php:177
+msgid "Tricker"
+msgstr ""
+
+#: admin/class.administration.php:178
+msgid "Cases Card"
+msgstr ""
+
+#: admin/class.administration.php:179
+msgid "Map Card"
+msgstr ""
+
+#: admin/class.administration.php:187
+msgid "Rows Per page"
+msgstr ""
+
+#: admin/class.administration.php:197
+msgid "Inner Spacing"
+msgstr ""
+
+#: admin/class.administration.php:207
+msgid "Title"
+msgstr ""
+
+#: admin/class.administration.php:217
+msgid "Layout"
+msgstr ""
+
+#: admin/class.administration.php:224
+msgid "Flat"
+msgstr ""
+
+#: admin/class.administration.php:230
+msgid "Table"
+msgstr ""
+
+#: admin/class.administration.php:240
+msgid "Table Graph Style"
+msgstr ""
+
+#: admin/class.administration.php:247 admin/class.administration.php:345
+msgid "Line Graph"
+msgstr ""
+
+#: admin/class.administration.php:253 admin/class.administration.php:351
+msgid "Bar Graph"
+msgstr ""
+
+#: admin/class.administration.php:263
+msgid "Cases Type"
+msgstr ""
+
+#: admin/class.administration.php:270 admin/class.administration.php:454
+#: admin/class.administration.php:574 admin/class.administration.php:682
+#: includes/callbacks/covtags.vars.php:13
+msgid "Active"
+msgstr ""
+
+#: admin/class.administration.php:276 includes/callbacks/covtags.vars.php:16
+msgid "Closed"
+msgstr ""
+
+#: admin/class.administration.php:286
+msgid "Hide Title"
+msgstr ""
+
+#: admin/class.administration.php:293 admin/class.administration.php:316
+#: admin/class.administration.php:493
+msgid "Yes"
+msgstr ""
+
+#: admin/class.administration.php:299 admin/class.administration.php:322
+#: admin/class.administration.php:499
+msgid "No"
+msgstr ""
+
+#: admin/class.administration.php:309
+msgid "Show Percentage Value"
+msgstr ""
+
+#: admin/class.administration.php:332
+msgid "Show Graph Style Or Disable it ?"
+msgstr ""
+
+#: admin/class.administration.php:339
+msgid "Disable"
+msgstr ""
+
+#: admin/class.administration.php:358
+msgid "Radar Graph"
+msgstr ""
+
+#: admin/class.administration.php:365
+msgid "Pie Graph"
+msgstr ""
+
+#: admin/class.administration.php:372
+msgid "Doughnut Graph"
+msgstr ""
+
+#: admin/class.administration.php:379
+msgid "Polar Area Graph"
+msgstr ""
+
+#: admin/class.administration.php:389
+msgid "Align Texts"
+msgstr ""
+
+#: admin/class.administration.php:396
+msgid "Left"
+msgstr ""
+
+#: admin/class.administration.php:402
+msgid "Center"
+msgstr ""
+
+#: admin/class.administration.php:412
+msgid "Display Fields"
+msgstr ""
+
+#: admin/class.administration.php:419 admin/class.administration.php:539
+#: admin/class.administration.php:647 includes/callbacks/covtags.vars.php:15
+msgid "Today Cases"
+msgstr ""
+
+#: admin/class.administration.php:426 admin/class.administration.php:546
+#: admin/class.administration.php:654 includes/callbacks/covtags.vars.php:23
+msgid "Confirmed"
+msgstr ""
+
+#: admin/class.administration.php:433 admin/class.administration.php:553
+#: admin/class.administration.php:661 includes/callbacks/covtags.vars.php:14
+msgid "Today Deaths"
+msgstr ""
+
+#: admin/class.administration.php:440 admin/class.administration.php:560
+#: admin/class.administration.php:668 includes/callbacks/covtags.vars.php:11
+msgid "Deaths"
+msgstr ""
+
+#: admin/class.administration.php:447 admin/class.administration.php:567
+#: admin/class.administration.php:675 includes/callbacks/covtags.vars.php:12
+msgid "Recovered"
+msgstr ""
+
+#: admin/class.administration.php:461 admin/class.administration.php:581
+#: admin/class.administration.php:689 includes/callbacks/covtags.vars.php:10
+msgid "Critical"
+msgstr ""
+
+#: admin/class.administration.php:468 admin/class.administration.php:588
+#: admin/class.administration.php:696 includes/callbacks/covtags.vars.php:34
+msgid "Cases Per One Million"
+msgstr ""
+
+#: admin/class.administration.php:475 admin/class.administration.php:595
+#: admin/class.administration.php:703 includes/callbacks/covtags.vars.php:35
+msgid "Deaths Per One Million"
+msgstr ""
+
+#: admin/class.administration.php:486
+msgid "Display Icon Or Flag"
+msgstr ""
+
+#: admin/class.administration.php:509
+msgid "Pagination Type"
+msgstr ""
+
+#: admin/class.administration.php:516
+msgid "Serials and next | prev"
+msgstr ""
+
+#: admin/class.administration.php:522 includes/callbacks/covtags.vars.php:38
+msgid "Load More"
+msgstr ""
+
+#: admin/class.administration.php:532
+msgid "Display Field"
+msgstr ""
+
+#: admin/class.administration.php:606
+msgid "Tricker Speed"
+msgstr ""
+
+#: admin/class.administration.php:625 includes/callbacks/covtags.vars.php:22
+msgid "Country Name"
+msgstr ""
+
+#: admin/class.administration.php:629
+msgid "None"
+msgstr ""
+
+#: admin/class.administration.php:640
+msgid "Descending By Field"
+msgstr ""
+
+#: admin/class.administration.php:714
+msgid "Cases Card Type"
+msgstr ""
+
+#: admin/class.administration.php:721
+msgid "Active Cases"
+msgstr ""
+
+#: admin/class.administration.php:728
+msgid "Closed Cases"
+msgstr ""
+
+#: admin/class.administration.php:741
+msgid "Shortcode Content"
+msgstr ""
+
+#: admin/class.administration.php:744
+msgid "[covtags-all-countries]"
+msgstr ""
+
+#: admin/class.administration.php:770
+msgid "Coronavirus Tags"
+msgstr ""
+
+#: admin/class.administration.php:770
+msgid "Covid19-Tags"
+msgstr ""
+
+#: includes/callbacks/covtags.filters.php:15
+msgid "k"
+msgstr ""
+
+#: includes/callbacks/covtags.filters.php:16
+msgid "M"
+msgstr ""
+
+#: includes/callbacks/covtags.filters.php:17
+msgid "G"
+msgstr ""
+
+#: includes/callbacks/covtags.filters.php:18
+msgid "T"
+msgstr ""
+
+#: includes/callbacks/covtags.filters.php:19
+msgid "P"
+msgstr ""
+
+#: includes/callbacks/covtags.filters.php:20
+msgid "E"
+msgstr ""
+
+#: includes/callbacks/covtags.filters.php:21
+msgid "Z"
+msgstr ""
+
+#: includes/callbacks/covtags.filters.php:22
+msgid "Y"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:6
+msgid "Total Deaths"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:7
+msgid "Total Cases"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:8
+msgid "Mild Condition"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:9
+msgid "Mild"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:17
+msgid "Total Coronavirus Cases"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:18
+msgid "Total Coronavirus Deaths"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:19
+msgid "Total Recovered"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:20
+msgid "COVID-19 Coronavirus Pandemic"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:21
+msgid "World"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:24
+msgid "Timeline"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:25 includes/classes/shortcodes.php:92
+msgid "Cases"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:26
+msgid "of the world deaths"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:27
+msgid "entries"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:28
+msgid "Showing"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:29
+msgid "to"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:30
+msgid "of"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:31
+msgid "Tests"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:32
+msgid "Next"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:33
+msgid "Prev"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:36
+msgid "Tests Per One Million"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:37 includes/classes/covtags.ui.php:812
+msgid "World Wide"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:39
+msgid "Cases which had an outcome"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:40
+msgid "Total Confirmed Cases"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:45
+msgid "Jan"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:46
+msgid "Feb"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:47
+msgid "Mar"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:48
+msgid "Apr"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:49
+msgid "May"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:50
+msgid "Jun"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:51
+msgid "Jul"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:52
+msgid "Aug"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:53
+msgid "Sep"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:54
+msgid "Oct"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:55
+msgid "Nov"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:56
+msgid "Dec"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:62
+msgid "Aruba"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:63
+msgid "Afghanistan"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:64
+msgid "Angola"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:65
+msgid "Anguilla"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:66
+msgid "Åland Islands"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:67
+msgid "Albania"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:68
+msgid "Andorra"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:69
+msgid "United Arab Emirates"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:70
+msgid "Argentina"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:71
+msgid "Armenia"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:72
+msgid "American Samoa"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:73
+msgid "Antarctica"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:74
+msgid "French Southern Territories"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:75
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:76
+msgid "Australia"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:77
+msgid "Austria"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:78
+msgid "Azerbaijan"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:79
+msgid "Burundi"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:80
+msgid "Belgium"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:81
+msgid "Benin"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:82
+msgid "Bonaire, Sint Eustatius and Saba"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:83
+msgid "Burkina Faso"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:84
+msgid "Bangladesh"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:85
+msgid "Bulgaria"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:86
+msgid "Bahrain"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:87
+msgid "Bahamas"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:88
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:89
+msgid "Saint Barthélemy"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:90
+msgid "Belarus"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:91
+msgid "Belize"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:92
+msgid "Bermuda"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:93
+msgid "Bolivia, Plurinational State of"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:94
+msgid "Brazil"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:95
+msgid "Barbados"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:96
+msgid "Brunei Darussalam"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:97
+msgid "Bhutan"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:98
+msgid "Bouvet Island"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:99
+msgid "Botswana"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:100
+msgid "Central African Republic"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:101
+msgid "Canada"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:102
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:103
+msgid "Switzerland"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:104
+msgid "Chile"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:105
+msgid "China"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:106
+msgid "Côte d'Ivoire"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:107
+msgid "Cameroon"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:108
+msgid "Congo, the Democratic Republic of the"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:109
+msgid "Congo"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:110
+msgid "Cook Islands"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:111
+msgid "Colombia"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:112
+msgid "Comoros"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:113
+msgid "Cape Verde"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:114
+msgid "Costa Rica"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:115
+msgid "Cuba"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:116
+msgid "Curaçao"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:117
+msgid "Christmas Island"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:118
+msgid "Cayman Islands"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:119
+msgid "Cyprus"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:120
+msgid "Czech Republic"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:121
+msgid "Germany"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:122
+msgid "Djibouti"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:123
+msgid "Dominica"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:124
+msgid "Denmark"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:125
+msgid "Dominican Republic"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:126
+msgid "Algeria"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:127
+msgid "Ecuador"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:128
+msgid "Egypt"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:129
+msgid "Eritrea"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:130
+msgid "Western Sahara"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:131
+msgid "Spain"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:132
+msgid "Estonia"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:133
+msgid "Ethiopia"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:134
+msgid "Finland"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:135
+msgid "Fiji"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:136
+msgid "Falkland Islands (Malvinas)"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:137
+msgid "France"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:138
+msgid "Faroe Islands"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:139
+msgid "Micronesia, Federated States of"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:140
+msgid "Gabon"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:141
+msgid "United Kingdom"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:142
+msgid "Georgia"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:143
+msgid "Guernsey"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:144
+msgid "Ghana"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:145
+msgid "Gibraltar"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:146
+msgid "Guinea"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:147
+msgid "Guadeloupe"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:148
+msgid "Gambia"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:149
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:150
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:151
+msgid "Greece"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:152
+msgid "Grenada"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:153
+msgid "Greenland"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:154
+msgid "Guatemala"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:155
+msgid "French Guiana"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:156
+msgid "Guam"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:157
+msgid "Guyana"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:158
+msgid "Hong Kong"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:159
+msgid "Heard Island and McDonald Islands"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:160
+msgid "Honduras"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:161
+msgid "Croatia"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:162
+msgid "Haiti"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:163
+msgid "Hungary"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:164
+msgid "Indonesia"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:165
+msgid "Isle of Man"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:166
+msgid "India"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:167
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:168
+msgid "Ireland"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:169
+msgid "Iran, Islamic Republic of"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:170
+msgid "Iraq"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:171
+msgid "Iceland"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:172
+msgid "Israel"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:173
+msgid "Italy"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:174
+msgid "Jamaica"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:175
+msgid "Jersey"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:176
+msgid "Jordan"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:177
+msgid "Japan"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:178
+msgid "Kazakhstan"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:179
+msgid "Kenya"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:180
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:181
+msgid "Cambodia"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:182
+msgid "Kiribati"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:183
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:184
+msgid "Korea, Republic of"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:185
+msgid "Kuwait"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:186
+msgid "Lao People's Democratic Republic"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:187
+msgid "Lebanon"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:188
+msgid "Liberia"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:189
+msgid "Libya"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:190
+msgid "Saint Lucia"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:191
+msgid "Liechtenstein"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:192
+msgid "Sri Lanka"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:193
+msgid "Lesotho"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:194
+msgid "Lithuania"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:195
+msgid "Luxembourg"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:196
+msgid "Latvia"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:197
+msgid "Macao"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:198
+msgid "Saint Martin (French part)"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:199
+msgid "Morocco"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:200
+msgid "Monaco"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:201
+msgid "Moldova, Republic of"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:202
+msgid "Madagascar"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:203
+msgid "Maldives"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:204
+msgid "Mexico"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:205
+msgid "Marshall Islands"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:206
+msgid "Macedonia, the former Yugoslav Republic of"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:207
+msgid "Mali"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:208
+msgid "Malta"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:209
+msgid "Myanmar"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:210
+msgid "Montenegro"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:211
+msgid "Mongolia"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:212
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:213
+msgid "Mozambique"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:214
+msgid "Mauritania"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:215
+msgid "Montserrat"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:216
+msgid "Martinique"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:217
+msgid "Mauritius"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:218
+msgid "Malawi"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:219
+msgid "Malaysia"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:220
+msgid "Mayotte"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:221
+msgid "Namibia"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:222
+msgid "New Caledonia"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:223
+msgid "Niger"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:224
+msgid "Norfolk Island"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:225
+msgid "Nigeria"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:226
+msgid "Nicaragua"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:227
+msgid "Niue"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:228
+msgid "Netherlands"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:229
+msgid "Norway"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:230
+msgid "Nepal"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:231
+msgid "Nauru"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:232
+msgid "New Zealand"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:233
+msgid "Oman"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:234
+msgid "Pakistan"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:235
+msgid "Panama"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:236
+msgid "Pitcairn"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:237
+msgid "Peru"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:238
+msgid "Philippines"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:239
+msgid "Palau"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:240
+msgid "Papua New Guinea"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:241
+msgid "Poland"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:242
+msgid "Puerto Rico"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:243
+msgid "Korea, Democratic People's Republic of"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:244
+msgid "Portugal"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:245
+msgid "Paraguay"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:246
+msgid "Palestinian Territory, Occupied"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:247
+msgid "French Polynesia"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:248
+msgid "Qatar"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:249
+msgid "Réunion"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:250
+msgid "Romania"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:251
+msgid "Russia"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:252
+msgid "Rwanda"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:253
+msgid "Saudi Arabia"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:254
+msgid "Sudan"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:255
+msgid "Senegal"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:256
+msgid "Singapore"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:257
+msgid "South Georgia and the South Sandwich Islands"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:258
+msgid "Saint Helena, Ascension and Tristan da Cunha"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:259
+msgid "Svalbard and Jan Mayen"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:260
+msgid "Solomon Islands"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:261
+msgid "Sierra Leone"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:262
+msgid "El Salvador"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:263
+msgid "San Marino"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:264
+msgid "Somalia"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:265
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:266
+msgid "Serbia"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:267
+msgid "South Sudan"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:268
+msgid "Sao Tome and Principe"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:269
+msgid "Suriname"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:270
+msgid "Slovakia"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:271
+msgid "Slovenia"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:272
+msgid "Sweden"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:273
+msgid "Swaziland"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:274
+msgid "Sint Maarten (Dutch part)"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:275
+msgid "Seychelles"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:276
+msgid "Syrian Arab Republic"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:277
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:278
+msgid "Chad"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:279
+msgid "Togo"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:280
+msgid "Thailand"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:281
+msgid "Tajikistan"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:282
+msgid "Tokelau"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:283
+msgid "Turkmenistan"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:284
+msgid "Timor-Leste"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:285
+msgid "Tonga"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:286
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:287
+msgid "Tunisia"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:288
+msgid "Turkey"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:289
+msgid "Tuvalu"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:290
+msgid "Taiwan, Province of China"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:291
+msgid "Tanzania, United Republic of"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:292
+msgid "Uganda"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:293
+msgid "Ukraine"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:294
+msgid "United States Minor Outlying Islands"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:295
+msgid "Uruguay"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:296
+msgid "United States"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:297
+msgid "Uzbekistan"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:298
+msgid "Holy See (Vatican City State)"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:299
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:300
+msgid "Venezuela, Bolivarian Republic of"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:301
+msgid "Virgin Islands, British"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:302
+msgid "Virgin Islands, U.S."
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:303
+msgid "Viet Nam"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:304
+msgid "Vanuatu"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:305
+msgid "Wallis and Futuna"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:306
+msgid "Samoa"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:307
+msgid "Yemen"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:308
+msgid "South Africa"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:309
+msgid "Zambia"
+msgstr ""
+
+#: includes/callbacks/covtags.vars.php:310
+msgid "Zimbabwe"
+msgstr ""
+
+#: includes/classes/covtags.http.request.php:68
+msgid ""
+"You Could't able to use country_name parameter with sort_key paramter, Set "
+"one as null"
+msgstr ""
+
+#: includes/classes/covtags.http.request.php:409
+msgid "Something went wrong, please try later"
+msgstr ""
+
+#: includes/classes/covtags.http.request.php:412
+msgid "Bad Request"
+msgstr ""
+
+#: includes/classes/covtags.soft.compatibility.php:18
+#, php-format
+msgid ""
+"This Plugin requires at least PHP version 5.3. You are running version %s. "
+"Please upgrade and try again"
+msgstr ""
+
+#: includes/classes/covtags.soft.compatibility.php:30
+#, php-format
+msgid ""
+"This Plugin requires at least wordpress version 4.5 You are running version "
+"%s. Please upgrade and try again"
+msgstr ""
+
+#: includes/classes/covtags.ui.php:251
+#, php-format
+msgid "Showing %1$s Countries"
+msgstr ""
+
+#: includes/classes/shortcodes.php:38 includes/classes/shortcodes.php:161
+msgid "Default"
+msgstr ""
+
+#: includes/classes/shortcodes.php:118
+msgid "World Wide Map"
+msgstr ""

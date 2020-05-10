@@ -1,0 +1,113 @@
+
+
+
+// =================================================== Request a chart or data array according to options
+Paremeters =>
+    1 => cases or deaths or recovered or percentage-report
+    2 => Country name OR NULL
+    3 => Chart Options
+    4 => Use Chart or return Array of History labels and data
+    5 => count of days per array
+    6 => false to return all days case true split to target days in week
+
+$data = $this->Card_Request_Chart_For( 'cases', 'egypt', array(
+  'canvas_height' => 600,
+  'style_class'   => 'style-aaabb',
+  'graph_type'    => 'line',
+  'graph_styles'  => array(
+    'backgroundColor' =>  '#222',
+    'borderColor'     => 'green'
+  ),
+  'gridline_options' => array(
+    'vertical' => array(
+      'grid_display' => true,
+      'grid_borders'  => false,
+      'ticks_limit' => 5,
+      'ticks_padding' => 10
+    ),
+    'horizontal' => array(
+      'grid_display' => true,
+      'grid_borders'  => false,
+      'ticks_limit' => 5,
+      'ticks_padding' => 10
+    )
+  )
+), true , 7 , false );
+
+
+// =================================================== Request table according to options
+
+Paremeters =>
+    1 => Table Options => use country flag - paginationType( auto - serials - loadmore ) - count of rows per page
+    2 => fields of columns ( this fields according to keys of api  ) in Country api
+    3 => class name for stylesheet
+
+echo $this->Card_All_Countries(
+array(
+  'show_country_flag' => true,
+  'pagination_type' => 'loadmore',
+  'rows_per_page' => 5
+),
+array(
+  'cases'     => ( object ) array( 'color' => '#999', 'is_desc' => false ),
+  'deaths'    => ( object ) array( 'color' => '#598451' ,  'is_desc' => false ),
+  'recovered' => ( object ) array( 'color' => 'teal' ,'is_desc' => true )
+),
+'style-1'
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Shortcodes */
+[ ************ covtags-statistics ************ ]
+'title'         => esc_html__( 'Default', COVTAGS_TEXTDOMAIN),
+'cols'          => 4,
+'fields'        => 'cases,deaths,recovered,critical',
+'layout'        => 'flat' ,
+'style'         => 'default',
+'country'       => null,
+'inner-spacing' => '50',
+'rounded'       => '20',
+'align-center'  => 'yes',
+'icon_flag'     => 'no'
+
+
+[*************** covtags-all-countries **********************]
+$default_atts = array(
+  'title'         => esc_html__( 'List of All Countries', COVTAGS_TEXTDOMAIN),
+  'fields'        => 'cases,deaths,recovered',
+  'field_colors'  => 'green,red,blue,teal',
+  'desc_by'       => 'cases',
+  'rows_per_page' => 10,
+  'style'         => 'style-1',
+  'graph_type'    => 'line',
+  'paging_type'   => 'serials',
+  'icon_flag'     => 'yes',
+);

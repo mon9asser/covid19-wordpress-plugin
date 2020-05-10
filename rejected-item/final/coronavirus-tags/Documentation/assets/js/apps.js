@@ -1,5 +1,0 @@
-(function($){
-    "use stirct"
- 
-
-})(jQuery);
