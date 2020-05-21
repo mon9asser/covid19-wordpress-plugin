@@ -1,0 +1,444 @@
+.covtags-ticker {
+  position: relative;
+  width: 100%;
+  background-color: #fbfbfb;
+  box-sizing: content-box;
+  -ms-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  height: 40px;
+  line-height: 40px;
+}
+
+.covtags-ticker .covtags-ticker-contents {
+  cursor: pointer;
+  padding: 0px;;
+  padding-left: 98%;
+  display: block;
+  position: relative;
+  white-space: nowrap;
+  box-sizing: content-box;
+  width: max-content;
+  height: inherit;
+  line-height: inherit;
+  -ms-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+
+  -webkit-animation-name: covtags-ticker-keyframe;
+  animation-name: covtags-ticker-keyframe;
+}
+
+.covtags-ticker .covtags-ticker-text {
+  border-left: #e84118 4px solid;
+  height: inherit;
+  line-height: inherit;
+}
+
+.covtags-ticker-position-bottom .covtags-ticker-text,
+.covtags-ticker-position-top .covtags-ticker-text {
+  padding-top: 13px;
+}
+
+.covtags-ticker-text {
+  display: inline-block;
+  position: absolute;
+  background: #e8e6e6;
+  z-index: 1000;
+}
+
+.covtags-ticker-text span {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.covtags-ticker-item {
+  display: inline-block;
+  position: relative;
+  padding: 13px 15px;
+  font-size: 12px;
+  z-index: 1;
+}
+
+.covtags-ticker-item span {
+  color: #666;
+  vertical-align: middle;
+  padding-left: 8px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.covtags-ticker-item .covtags-ticker-item-value {
+    color: #e84118;
+    font-weight: bold;
+}
+
+.covtags-ticker-speed-normal .covtags-ticker-contents {
+  -webkit-animation-duration: 200s;
+  animation-duration: 200s;
+}
+
+.covtags-ticker-speed-slow .covtags-ticker-contents {
+  -webkit-animation-duration: 500s;
+  animation-duration: 500s;
+}
+
+.covtags-ticker-speed-medium .covtags-ticker-contents {
+  -webkit-animation-duration: 250s;
+  animation-duration: 250s;
+}
+
+.covtags-ticker-speed-fast .covtags-ticker-contents {
+  -webkit-animation-duration:  130s;
+  animation-duration: 130s;
+}
+
+.covtags-ticker-position-normal,
+.covtags-ticker-position-normal .covtags-ticker-contents {
+  overflow: hidden;
+}
+
+.covtags-ticker-position-top,
+.covtags-ticker-position-bottom {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.covtags-ticker-position-top {
+  top: 0;
+}
+
+.covtags-ticker-position-bottom {
+  bottom: 0;
+}
+.covtags-ticker-position-bottom:hover .covtags-ticker-contents,
+.covtags-ticker-position-top:hover .covtags-ticker-contents{
+  animation-play-state:paused;
+}
+
+.covtags-ticker-rtl {
+  direction: rtl;
+}
+.covtags-ticker-item {
+  display: inline-block;
+  position: relative;
+}
+
+/* Basic Data */
+.covtags-ticker-flag,
+.covtags-ticker-icon {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  vertical-align: middle;
+  border-radius: 50%;
+  margin-right: 3px;
+}
+
+.covtags-ticker-flag{
+  box-shadow: 0 0 0 2px #ffffff33;
+  border: 1px solid #ffffff63;
+}
+.covtags-ticker-icon {
+  width: 30px;
+  height: 25px;
+  text-align: left;
+}
+.covtags-ticker-text::after {
+  content: '';
+  border-bottom: 20px solid transparent;
+  border-top: 20px solid transparent;
+  border-left: 20px solid #e8e6e6;
+  position: absolute;
+  right: -12px;
+  top: 4px;
+}
+
+.covtags-ticker-dark,
+.covtags-ticker-dark .covtags-ticker-tooltip {
+  background-color: #081d1f;
+}
+.covtags-ticker-dark .covtags-ticker-text{
+  background-color:#192f2f;
+}
+.covtags-ticker-dark .covtags-ticker-text::after {
+  border-left: 20px solid #192f2f;
+}
+.covtags-ticker-dark .covtags-ticker-text span,
+.covtags-ticker-dark .covtags-ticker-item span {
+  color: #fff;
+}
+.covtags-ticker-dark .covtags-ticker-item .covtags-ticker-item-value{
+  color:#259dd0;
+}
+
+.covtags-ticker-tooltip {
+  display: inline-block;
+  position: absolute;
+  height: auto;
+  background: red;
+  bottom: 50px;
+  width: 210px;
+  margin:0px auto;
+  left: 0;
+  visibility: hidden;
+  -webkit-transform: translateY(-4px);
+  -moz-transform: translateY(-4px);
+  -o-transform: translateY(-4px);
+  -ms-transform: translateY(-4px);
+  transform: translateY(-4px);
+  padding: 15px;
+  -webkit-transition: transform, 0.1s linear;
+  -moz-transition: transform, 0.1s linear;
+  -o-transition: transform, 0.1s linear;
+  -ms-transition: transform, 0.1s linear;
+  transition: transform, 0.1s linear;
+}
+.covtags-ticker-tooltip ul {
+  padding: 0px;
+  margin:0px;
+  list-style: none;
+}
+.covtags-ticker-tooltip ul li {
+  padding: 8px 0px !important;
+  margin:0px !important;
+  overflow: hidden;
+}
+
+.covtags-ticker-tooltip ul li:not(:last-child){
+  border-bottom: 1px solid #ffffff1c;
+}
+
+.covtags-ticker-tooltip ul li span {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  padding: 0px !important;
+  margin:0px !important;
+}
+.covtags-ticker-tooltip span:first-child {
+  float: left;
+}
+.covtags-ticker-tooltip span:last-child {
+  float: right;
+}
+.covtags-ticker-item:hover .covtags-ticker-tooltip {
+  -webkit-transform: translateY(3px);
+  -moz-transform: translateY(3px);
+  -o-transform: translateY(3px);
+  -ms-transform: translateY(3px);
+  transform: translateY(3px);
+  visibility: visible;
+}
+
+.covtags-ticker-dark .covtags-ticker-tooltip{
+  border-bottom: 5px solid #259dd0;
+}
+.covtags-ticker-dark .covtags-ticker-tooltip::after {
+  content: '';
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #259dd0;
+  position: absolute;
+  bottom: -13px;
+  left: calc(50% - 10px);
+}
+
+@-webkit-keyframes covtags-ticker-keyframe {
+  0% {
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    transform: translateX(0%);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+@-o-keyframes covtags-ticker-keyframe {
+  0% {
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    transform: translateX(0%);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+@keyframes covtags-ticker-keyframe {
+  0% {
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    transform: translateX(0%);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+
+
+
+
+
+  <!-- Ticker Container -->
+      <div class="<?php echo esc_attr( $covtags_ticker_classes ); ?>" id="<?php echo esc_attr( $covtags_unique_id );?>">
+
+        <!-- Ticker Title -->
+        <div class="covtags-ticker-text">
+          <!-- Icon or Flag -->
+          <span class="covtags-ticker-icon" style="background-image:url(<?php echo esc_url( COVTAGS_SRC . 'assets/img/logo-2-250x250-red.png' ); ?>);"></span>
+          <!-- Text Title -->
+          <span>
+            <?php echo $covtags_labels[ $field ]; ?>
+          </span>
+        </div>
+
+        <!-- Ticker Contents -->
+        <div class="covtags-ticker-contents">
+
+          <!-- Ticker : List All Countries -->
+          <?php if ( 'all' === $ticker_data ): ?>
+
+            <?php
+              foreach ( $countries as $country_key => $country_obj ):
+              // Casting Object to be an array
+              $country_obj = ( array ) $country_obj;
+            ?>
+
+            <div class="covtags-ticker-item covtags-ticker-<?php echo esc_attr( $ticker_data )?>">
+
+
+              <!-- Item Flag -->
+              <span class="covtags-ticker-flag" style="background-image:url('<?php echo esc_url( $country_obj[ 'countryInfo' ]->flag ); ?>');"></span>
+
+              <!-- Item Name -->
+              <span class="covtags-ticker-item-data">
+                <?php echo $country_obj[ 'country' ]; ?>
+              </span>
+
+              <!-- Cases Number -->
+              <span class="covtags-ticker-item-value">
+                <?php echo apply_filters( 'covtags_number_unit', $country_obj[ $field ], 'comma_format' ); ?>
+              </span>
+
+              <!-- Tooltip -->
+              <?php if ( 0 !== count( $tooltip_fields ) && 'normal' !== $ticker_position && 'all' === $ticker_data ): ?>
+                <div class="covtags-ticker-tooltip">
+                  <ul>
+                    <?php foreach ( $tooltip_fields as $tool_key => $toolipe_data ): ?>
+                      <li>
+                        <span>
+                          <?php echo $covtags_labels[ $toolipe_data ]; ?>
+                        </span>
+                        <span>
+                          <?php echo apply_filters( 'covtags_number_unit', $country_obj[ $toolipe_data ], 'comma_format' ); ?>
+                        </span>
+                      </li>
+                    <?php endforeach; ?>
+                  </ul>
+                </div>
+              <?php endif; ?>
+
+            </div>
+            <?php endforeach; ?>
+          <?php endif; ?>
+
+
+
+          <!-- Ticker : Globally -->
+          <?php if ( 'globally' === $ticker_data ): ?>
+            <?php foreach ( $fields as $globally_key => $globally_data ): ?>
+
+            <div class="covtags-ticker-item covtags-ticker-<?php echo esc_attr( $ticker_data )?>">
+
+              <!-- Item Name -->
+              <span class="covtags-ticker-item-data">
+                <?php echo $covtags_labels[ $globally_data ]; ?>
+              </span>
+
+              <!-- Cases Number -->
+              <span class="covtags-ticker-item-value">
+                <?php echo apply_filters( 'covtags_number_unit', $world_report[ $globally_data ], 'comma_format' ); ?>
+              </span>
+
+            </div>
+
+            <?php endforeach; ?>
+          <?php endif; ?>
+
+          <!-- ISSUE HERE -->
+          <!-- Ticker : Specific Country -->
+          <?php if ( 'country' === $ticker_data ): $countries = ( array ) $countries; ?>
+            <?php foreach ( $fields as $country_key => $country_data ): ?>
+
+            <div class="covtags-ticker-item covtags-ticker-<?php echo esc_attr( $ticker_data )?>">
+
+              <!-- Item Name -->
+              <span class="covtags-ticker-item-data">
+                <?php echo $covtags_labels[ $country_data ]; ?>
+              </span>
+
+              <!-- Cases Number -->
+              <span class="covtags-ticker-item-value">
+                <?php echo apply_filters( 'covtags_number_unit', $countries[ $country_data ], 'comma_format' ); ?>
+              </span>
+
+            </div>
+
+            <?php endforeach; ?>
+          <?php endif; ?>
+
+        </div>
+
+
+      </div>
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+

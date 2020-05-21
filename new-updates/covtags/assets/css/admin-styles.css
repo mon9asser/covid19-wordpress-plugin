@@ -1,0 +1,616 @@
+
+/*
+===================================
+  Icon Of Plugin ( wp left side menu )
+===================================
+*/
+#adminmenu .wp-menu-image img{
+  box-sizing: border-box;
+  width: 21px;
+  margin-top: -2px;
+}
+
+
+/*
+===================================
+  Admin Panel Container
+===================================
+*/
+.covtags-container-adm {
+  box-sizing: border-box;
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
+.covtags-container-adm,
+.covtags-container-adm * ,
+.covtags-container-adm *::before,
+.covtags-container-adm *::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.covtags-container-adm a:active,
+.covtags-container-adm a:focus,
+.covtags-container-adm a:link,
+.covtags-container-adm a:hover {
+  text-decoration: none;
+}
+
+.covtags-container-adm label {
+  color: #999;
+}
+/*
+===================================
+  Left Sidebar
+===================================
+*/
+
+.tags-selected-anchor {
+  background: #f5f5f514;
+}
+
+.covtags-tab-contents {
+  width: 220px;
+  float: left;
+  position: sticky;
+  position: -webkit-sticky;
+  left: 0;
+  top: 20px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+/* Menu Lists */
+.covtags-tab-contents > ul {
+  display: block;
+  position: relative;
+  padding: 0;
+  margin: -10px 0 0 0;
+  width: 100%;
+  overflow: hidden;
+  padding: 10px 0px;
+}
+
+.covtags-tab-contents ul li {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin: 0px;
+}
+
+.covtags-tab-contents ul li a {
+  display: inline-block;
+  padding: 10px 25px;
+  vertical-align: middle;
+  color: #fff;
+  display: block;
+  width: 100%;
+  font-size: 14px;
+  font-family: "Helvetica Neue", sans-serif;
+  line-height: 1.8;
+}
+
+.covtags-tab-contents ul li a:hover {
+  color: #fff;
+}
+
+.covtags-tab-contents ul li a,
+.covtags-tab-contents ul li a:focus,
+.covtags-tab-contents ul li a:active {
+  text-decoration: none;
+}
+
+.covtags-tab-contents ul li a .dashicons {
+  float: right;
+}
+
+.tags-website-info {
+  display: block;
+  position: absolute;
+  overflow: hidden;
+  bottom: 0px;
+  left: 0px;
+  z-index: 1000;
+  margin: 0px auto;
+  width: 220px;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.tags-website-info a,
+.tags-website-info a:hover,
+.tags-website-info a:focus,
+.tags-website-info a:active {
+  color: #ddd;
+  font-family: "Helvetica Neue", sans-serif;
+  text-decoration: none;
+  outline: none;
+}
+
+.tags-website-info a:hover {
+  color: #fff;
+}
+
+/* Logo */
+.eratags-logo {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.eratags-logo::after {
+  display: block;
+  position: relative;
+  width: 100%;
+  clear: both;
+  content: '';
+}
+
+.responsive-logo {
+  width: 100%;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+}
+
+.main-logo {
+  margin: 30px auto;
+  width: 50%;
+}
+
+
+/*
+===================================
+  Page Contents
+===================================
+*/
+
+.block-contents {
+  display: block;
+  position: relative;
+  min-height: 600px;
+}
+
+.block-contents::after {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  content: '';
+}
+
+.covtags-blocks {
+  display: block;
+  position: relative;
+  width: 100%;
+  min-height: 600px;
+  background: #057eb2;
+}
+
+.covtags-blocks::after {
+  display: block;
+  position: relative;
+  width: 100%;
+  clear: both;
+  content: '';
+}
+
+.cotags-basic-contents {
+  display: block;
+  position: relative;
+  margin-left: 220px;
+  box-sizing: border-box;
+  width: calc(100% - 220px);
+  background: #f5f5f5;
+}
+
+.covtags-settings {
+  display: block;
+  width: 100%;
+  min-height: 600px;
+}
+
+.covtags-settings::after {
+  display: block;
+  position: relative;
+  width: 100%;
+  clear: both;
+  content: '';
+}
+
+.tags-content-block {
+  display: inline-block;
+  float: left;
+  position: relative;
+  padding: 20px 0 20px 20px;
+  height: 100%;
+}
+
+.tags-side-left {
+  width: 100%;
+  max-width: 65%;
+}
+
+.tags-side-right {
+  width: 100%;
+  max-width: 35%;
+}
+
+.tags-panel-container {
+  display: block;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background: #fff;
+  padding: 20px;
+}
+
+.tags-panel-container h1 {
+  padding: 0px;
+  font-weight: bold;
+  font-family: "Helvetica Neue", sans-serif;
+  color: #057eb2;
+  font-size: 18px;
+}
+
+.covtags-block {
+  display: block;
+  position: relative;
+  min-height: 500px;
+  width: 100%;
+  background: #fff;
+  padding: 20px;
+}
+
+.block-title {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.block-title h4 {
+  position: relative;
+  padding: 0px;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.tags-field-container,
+.tags-form-tbl-contents {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding: 20px 10px;
+}
+
+.set-border-bottom {
+  border-bottom: 1px dashed #f5f5f5;
+}
+
+.set-border-bottom:hover {
+  background: #fdfdfd;
+}
+
+.covtags-label {
+  float: left;
+  position: relative;
+  width: 100%;
+  max-width: 35%;
+  padding: 10px 0;
+}
+
+.covtags-field {
+  float: left;
+  position: relative;
+  width: 100%;
+  max-width: 65%;
+}
+
+.covtags-field input[type='text'],
+.covtags-field textarea,
+.covtags-field select {
+  width: 100%;
+  max-width: 25rem;
+  display: block;
+  position: relative;
+  vertical-align: middle;
+  border: 1px solid #eee;
+  padding: 5px 10px;
+  color: #666;
+}
+
+.covtags-field .tags-note {
+  width: max-content;
+  background: whitesmoke;
+  padding: 3px 5px;
+  border-radius:5px;
+}
+
+.remove-padding {
+  padding: 0;
+}
+
+.tags-text-left {
+  text-align: left;
+}
+
+.tags-save-container {
+  margin-top: 40px;
+}
+
+.tags-save-container a {
+  background: #057eb2;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: none;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 13px;
+  margin: 0;
+  border: 0;
+  cursor: pointer;
+  height: 36px;
+  box-sizing: border-box;
+  padding: 0 15px;
+  overflow: hidden;
+  border-radius: 3px;
+  vertical-align: middle;
+  line-height: 2.8;
+}
+
+.covtags-field p {
+  padding: 10px 0;
+  display: block;
+  line-height: 1.8;
+  color: #999;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+.covtags-field input[type='text']:hover,
+.covtags-field textarea:hover,
+.covtags-field select:hover,
+.covtags-field input[type='text']:focus,
+.covtags-field textarea:focus,
+.covtags-field select:focus,
+.covtags-field input[type='text']:active,
+.covtags-field textarea:active
+.covtags-field select:active {
+  outline: none;
+  box-shadow: none;
+  border-color: #eee;
+}
+
+.tags-two-fields select {
+  max-width: 45%;
+  float: left;
+}
+
+.tags-two-fields input {
+  max-width: 45% !important;
+  float: left;
+  margin-left: 10px;
+}
+
+.covtags-field ul {
+  display: block;
+  padding: 0px;
+  margin:10px 0 0 0;
+  width: 100%;
+}
+
+.covtags-field ul li {
+  display: inline-block;
+  width: 50%;
+  float: left;
+}
+
+.tags-3-cols ul li {
+  width: 33%;
+}
+
+.tags-many-inputs ul li {
+  width: 100%;
+  display: block;
+}
+
+.tags-many-inputs ul li label input[type='text'] {
+  width: 60%;
+  display: inline-block;
+  float: right;
+  max-width: 25rem;
+  display: block;
+  position: relative;
+  vertical-align: middle;
+  border: 1px solid #eee;
+  padding: 4px 12px;
+  color: #666;
+}
+
+.hide-element {
+  display: none;
+}
+
+.close-this-label {
+  display: none !important;
+}
+
+/*
+===================================
+  Shortcode and help - document sections
+===================================
+*/
+
+.tags-data-opt-field {
+  display: none;
+}
+
+.covtags-about-us-card {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  background: #ffffff;
+  padding: 20px;
+}
+
+.covtags-help-block {
+  display: block;
+  width: 100%;
+}
+
+.covtags-help-block span {
+  font-size: 25px;
+  width: 30px;
+  height: 25px;
+  text-align: left;
+}
+
+.covtags-help-block h4,
+.covtags-help-block span,
+.covtags-help-block a {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.covtags-help-block a,
+.covtags-help-block a:active,
+.covtags-help-block a:focus {
+  text-decoration: none;
+  text-transform: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.set-as-sticky-position {
+  position: sticky;
+  top: 30px;
+}
+
+.tags-shorcode-contents {
+  margin-top: 10px;
+  background-color: #fffacc;
+  padding: 10px;
+  border: 1px solid #FFC107;
+  color: #777777;
+  font-weight: 200;
+}
+
+.tags-shortcode-block-contents {
+  margin-bottom: 20px;
+  display: none;
+}
+
+.activate-shotcode-body {
+  display: block;
+}
+
+.tags-online-documentation {
+  margin-bottom: 20px;
+}
+
+.shortcode-open-option-data {
+  display: block !important;
+}
+
+/* Media screens */
+@media only screen and ( max-width: 1300px ){
+
+  .tags-side-left {
+      max-width: 50%;
+  }
+
+  .tags-side-right {
+      max-width: 50%;
+  }
+
+  .covtags-field,
+  .covtags-label {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .tags-save-container {
+    margin-top: 5px;
+  }
+
+}
+
+@media only screen and ( max-width: 1000px ) {
+
+  .tags-side-left {
+      max-width: 100%;
+  }
+
+  .tags-side-right {
+      max-width: 100%;
+  }
+
+}
+
+@media only screen and ( max-width: 600px ) {
+
+ .covtags-tab-contents,
+ .tags-website-info {
+   display: none;
+ }
+
+.cotags-basic-contents {
+   width: 100%;
+       margin-left: 0;
+ }
+
+ .tags-panel-container h1 {
+   font-size: 14px;
+ }
+
+ .tags-content-block {
+   padding: 15px 0;
+ }
+
+.tags-3-cols ul li {
+  width: 100%;
+}
+}
+
+
+/*
+===================================
+  Widget Forms
+===================================
+*/
+.covtags-widget-container {
+	width: 100%;
+	display: block;
+	position: relative;
+  margin-left: 0;
+	margin-right: 0;
+}
+
+.covtags-field-content {
+  display: block;
+  position: relative;
+}
+
+.covtags-field-content .covtags-widfform-title {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.covtags-field-content .covtags-widfform-title ~ label {
+  display: inline-block;
+  vertical-align: middle;
+  float: right;
+  padding-left: 40px;
+}
+
+.covtags-group-checkradio {
+  margin-bottom: 3px;
+  margin-top: 3px;
+}
